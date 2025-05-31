@@ -1,0 +1,428 @@
+{
+  "Learning": {
+    "icon": "assets/images/icon/discover.svg",
+    "subcategories": {
+      "default": [
+        {
+          "title": "Coursera",
+          "link": "https://www.coursera.org",
+          "logo": "assets/images/logo/coursera.png",
+          "desc": "Online courses, degrees and projects"
+        },
+        {
+          "title": "Udemy",
+          "link": "https://www.udemy.com",
+          "logo": "assets/images/logo/udemy.png",
+          "desc": "Online learning for job-relevant skills"
+        },
+        {
+          "title": "edX",
+          "link": "https://www.edx.org",
+          "logo": "assets/images/logo/edx.png",
+          "desc": "Massive open online course (MOOC) platform"
+        },
+        {
+          "title": "MIT Open Course",
+          "link": "https://ocw.mit.edu",
+          "logo": "assets/images/logo/mit.png",
+          "desc": "Open Educational Resources from MIT"
+        },
+        {
+          "title": "Khan Academy",
+          "link": "https://www.khanacademy.org",
+          "logo": "assets/images/logo/khan-academy.png",
+          "desc": "K-14 and test preparation"
+        },
+        {
+          "title": "YouTube",
+          "link": "https://www.youtube.com",
+          "logo": "assets/images/logo/youtube.png",
+          "desc": "Video streaming and music platform"
+        },
+        {
+          "title": "TED Talks",
+          "link": "https://www.ted.com/talks",
+          "logo": "assets/images/logo/ted.png",
+          "desc": "Technology, Entertainment, Design"
+        },
+        {
+          "title": "bilibili",
+          "link": "https://www.bilibili.com",
+          "logo": "assets/images/logo/bilibili.png",
+          "desc": "Chines video sharing platform"
+        }
+      ],
+      "CS & IT": [
+        {
+          "title": "W3Schools",
+          "link": "https://www.w3schools.com",
+          "logo": "assets/images/logo/w3schools.png",
+          "desc": "Web development tutorials"
+        },
+        {
+          "title": "GeeksforGeeks",
+          "link": "https://www.geeksforgeeks.org",
+          "logo": "assets/images/logo/geeksforgeeks.png",
+          "desc": "Computer science and programming tutorials"
+        },
+        {
+          "title": "Developer Roadmaps",
+          "link": "https://roadmap.sh",
+          "logo": "assets/images/logo/roadmaps.png",
+          "desc": "Developer learning paths and guides"
+        },
+        {
+          "title": "Leetcode",
+          "link": "https://leetcode.com",
+          "logo": "assets/images/logo/leetcode.png",
+          "desc": "Coding interview preparation"
+        },
+        {
+          "title": "Stack Overflow",
+          "link": "https://stackoverflow.com",
+          "logo": "assets/images/logo/stack-overflow.png",
+          "desc": "Public Q&A platform for developers"
+        },
+        {
+          "title": "freeCodeCamp",
+          "link": "https://www.freecodecamp.org",
+          "logo": "assets/images/logo/freecodecamp.png",
+          "desc": "Free interactive learning platform for coding"
+        },
+        {
+          "title": "codecademy",
+          "link": " https://www.codecademy.com",
+          "logo": "assets/images/logo/codecademy.png",
+          "desc": "Online code learning platform"
+        }
+      ],
+      "History & Cultures": [
+        {
+          "title": "Google Earth",
+          "link": "https://earth.google.com",
+          "logo": "assets/images/logo/google-earth.png",
+          "desc": "Pale Blue Dot"
+        },
+        {
+          "title": "Google Arts & Cultures",
+          "link": "https://artsandculture.google.com",
+          "logo": "assets/images/logo/google-arts-and-culture.png",
+          "desc": "Historical events, figures, places and arts"
+        },
+        {
+          "title": "Lonely Planet",
+          "link": "https://www.lonelyplanet.com",
+          "logo": "assets/images/logo/lonely-planet.png",
+          "desc": "Travel guides & travel information"
+        },
+        {
+          "title": "Histography",
+          "link": "https://histography.io",
+          "logo": "assets/images/logo/histography.png",
+          "desc": "Timeline of history"
+        },
+        {
+          "title": "OldMaps Online",
+          "link": "https://www.oldmapsonline.org",
+          "logo": "assets/images/logo/oldmaps-online.png",
+          "desc": "Historical places and old maps with timeline"
+        },
+        {
+          "title": "Artvee",
+          "link": "https://artvee.com",
+          "logo": "assets/images/logo/artvee.png",
+          "desc": "Discover the best in classical & modern art"
+        },
+        {
+          "title": "classicals.de",
+          "link": "https://www.classicals.de",
+          "logo": "assets/images/logo/classicals-de.png",
+          "desc": "High-quality classical music recordings"
+        }
+      ]
+    }
+  },
+  "AI": {
+    "icon": "assets/images/icon/search.svg",
+    "subcategories": {
+      "default": [
+        {
+          "title": "ChatGPT",
+          "link": "https://chat.openai.com",
+          "logo": "assets/images/logo/chatgpt.png",
+          "desc": "AI chatbot by OpenAI"
+        },
+        {
+          "title": "Google Gemini",
+          "link": "https://gemini.google.com/app",
+          "logo": "assets/images/logo/google-gemini.png",
+          "desc": "AI assistant by Google"
+        },
+        {
+          "title": "Microsoft Copilot",
+          "link": "https://copilot.microsoft.com",
+          "logo": "assets/images/logo/microsoft-copilot.png",
+          "desc": "AI assistant by Microsoft"
+        },
+        {
+          "title": "Deepseek",
+          "link": "https://chat.deepseek.com",
+          "logo": "assets/images/logo/deepseek.png",
+          "desc": "AI chatbot by DeepSeek"
+        },
+        {
+          "title": "Claude AI",
+          "link": "https://claude.ai",
+          "logo": "assets/images/logo/claude.png",
+          "desc": "AI assistant by Anthropic"
+        },
+        {
+          "title": "Perplexity",
+          "link": "https://www.perplexity.ai",
+          "logo": "assets/images/logo/perplexity.png",
+          "desc": "AI-powered search engine"
+        }
+      ]
+    }
+  },
+  "Web Development": {
+    "icon": "assets/images/icon/information.svg",
+    "subcategories": {
+      "References": [
+        {
+          "title": "MDN Web Docs",
+          "link": "https://developer.mozilla.org/en-US/docs/Web",
+          "logo": "assets/images/logo/mdn.png",
+          "desc": "Documentation for web developers"
+        },
+        {
+          "title": "CSS-Tricks",
+          "link": "https://css-tricks.com",
+          "logo": "assets/images/logo/css-tricks.png",
+          "desc": "A website about making websites"
+        },
+        {
+          "title": "cssreference.io",
+          "link": "https://cssreference.io",
+          "logo": "assets/images/logo/css-reference.png",
+          "desc": "A free visual guide to CSS"
+        },
+        {
+          "title": "cheatsheets.zip",
+          "link": "https://cheatsheets.zip",
+          "logo": "assets/images/logo/cheatsheets.png",
+          "desc": "Cheat sheets for developers"
+        }
+      ],
+      "Tools": [
+        {
+          "title": "CodePen",
+          "link": "https://codepen.io",
+          "logo": "assets/images/logo/codepen.png",
+          "desc": "Online code editor and social development environment"
+        },
+        {
+          "title": "Browsersync",
+          "link": "https://browsersync.io",
+          "logo": "assets/images/logo/browsersync.png",
+          "desc": "Synchronised browser testing"
+        },
+        {
+          "title": "Pesticide for Chrome",
+          "link": "https://chromewebstore.google.com/detail/pesticide-for-chrome/bakpbgckdnepkmkeaiomhmfcnejndkbi",
+          "logo": "assets/images/logo/pesticide.png",
+          "desc": "Chrome extension for CSS debugging"
+        },
+        {
+          "title": "React Developer Tools",
+          "link": "https://chromewebstore.google.com/detail/react-developer-tools/fmkadmapgofadopljbjfkapdkoienihi",
+          "logo": "assets/images/logo/react-developer-tools.png",
+          "desc": "Chrome extension for the React library"
+        },
+        {
+          "title": "MyDevTools",
+          "link": "https://www.mydevtools.tech/dashboard",
+          "logo": "assets/images/logo/mydevtools.png",
+          "desc": "Developer's toolkit"
+        },
+        {
+          "title": "Live Server - VS Code",
+          "link": "https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer",
+          "logo": "assets/images/logo/live-server.png",
+          "desc": "Local development server with live reload feature"
+        }
+      ],
+      "Stock images": [
+        {
+          "title": "Pixabay",
+          "link": "https://pixabay.com",
+          "logo": "assets/images/logo/pixabay.png",
+          "desc": "Stunning royalty-free images & royalty-free stock"
+        },
+        {
+          "title": "Lummi",
+          "link": "https://www.lummi.ai",
+          "logo": "assets/images/logo/lummi.png",
+          "desc": "Royalty-free AI stock photos, illustrations, and 3D"
+        },
+        {
+          "title": "Openverse",
+          "link": "https://openverse.org",
+          "logo": "assets/images/logo/openverse.png",
+          "desc": "Openly licensed images, audio and more"
+        },
+        {
+          "title": "Pexels",
+          "link": "https://www.pexels.com",
+          "logo": "assets/images/logo/pexels.png",
+          "desc": "Royalty free images & videos shared by creators"
+        },
+        {
+          "title": "Freepik",
+          "link": "https://www.freepik.com",
+          "logo": "assets/images/logo/freepik.png",
+          "desc": "Creative work, reimagined with AI"
+        },
+        {
+          "title": "Unsplash",
+          "link": "https://unsplash.com",
+          "logo": "assets/images/logo/unsplash.png",
+          "desc": "Beautiful free images and pictures"
+        },
+        {
+          "title": "Piqsels",
+          "link": "https://www.piqsels.com",
+          "logo": "assets/images/logo/piqsels.png",
+          "desc": "Free stock photos and wallpapers"
+        },
+        {
+          "title": "Lorem Picsum",
+          "link": "https://picsum.photos",
+          "logo": "assets/images/logo/lorem-picsum.png",
+          "desc": "The Lorem Ipsum for photos"
+        }
+      ],
+      "Fonts & Colors": [
+        {
+          "title": "Google Fonts",
+          "link": "https://fonts.google.com",
+          "logo": "assets/images/logo/google-fonts.png",
+          "desc": "Making the web more beautiful, fast, and open through great typography"
+        },
+        {
+          "title": "Fonts In Use",
+          "link": "https://fontsinuse.com",
+          "logo": "assets/images/logo/fonts-in-use.png",
+          "desc": "Independent archive of typography"
+        },
+        {
+          "title": "Color Hunt",
+          "link": "https://colorhunt.co",
+          "logo": "assets/images/logo/colorhunt.png",
+          "desc": "Color palettes for designers and artists"
+        },
+        {
+          "title": "OddContrast",
+          "link": "https://www.oddcontrast.com",
+          "logo": "assets/images/logo/odd-contrast.png",
+          "desc": "Color contrast checker with Oklch, Oklab, P3, and more "
+        }
+      ],
+      "Design": [
+        {
+          "title": "Figma",
+          "link": "https://www.figma.com",
+          "logo": "assets/images/logo/figma.png",
+          "desc": "Collaborative interface design tool"
+        },
+        {
+          "title": "Canva",
+          "link": "https://www.canva.com",
+          "logo": "assets/images/logo/canva.png",
+          "desc": "Free online graphic design tool"
+        },
+        {
+          "title": "Bootstrap",
+          "link": "https://getbootstrap.com/docs/5.3/getting-started/introduction",
+          "logo": "assets/images/logo/bootstrap.png",
+          "desc": "Build fast, responsive sites"
+        },
+        {
+          "title": "Graphite",
+          "link": "https://editor.graphite.rs",
+          "logo": "assets/images/logo/graphite.png",
+          "desc": "Toolbox for 2D content creation"
+        }
+      ]
+    }
+  },
+  "Productivity": {
+    "icon": "assets/images/icon/app.svg",
+    "subcategories": {
+      "Files": [
+        {
+          "title": "Adobe Acrobat Online",
+          "link": "https://www.adobe.com/acrobat/online.html",
+          "logo": "assets/images/logo/adobe.png",
+          "desc": "Powerful PDF and e-signing tools"
+        },
+        {
+          "title": "Smallpdf",
+          "link": "https://smallpdf.com/pdf-tools",
+          "logo": "assets/images/logo/smallpdf.png",
+          "desc": "A free solution to all your PDF problems"
+        },
+        {
+          "title": "iLoveIMG",
+          "link": "https://www.iloveimg.com",
+          "logo": "assets/images/logo/iloveimg.png",
+          "desc": "Resize, upscale and convert images"
+        },
+        {
+          "title": "CloudConvert",
+          "link": "https://cloudconvert.com",
+          "logo": "assets/images/logo/cloud-convert.png",
+          "desc": "File format converter"
+        }
+      ],
+      "Writing": [
+        {
+          "title": "Notion",
+          "link": "https://www.notion.so",
+          "logo": "assets/images/logo/notion.png",
+          "desc": "Workspace for notes, tasks, wikis, and databases"
+        },
+        {
+          "title": "Evernote",
+          "link": "https://evernote.com",
+          "logo": "assets/images/logo/evernote.png",
+          "desc": "Note-taking and organization tool"
+        },
+        {
+          "title": "Obsidian",
+          "link": "https://obsidian.md",
+          "logo": "assets/images/logo/obsidian.png",
+          "desc": "Markdown-based note-taking app"
+        },
+        {
+          "title": "draw.io",
+          "link": "https://app.diagrams.net",
+          "logo": "assets/images/logo/drawio.png",
+          "desc": "Free online diagram software"
+        },
+        {
+          "title": "Grammarly",
+          "link": "https://www.grammarly.com",
+          "logo": "assets/images/logo/grammarly.png",
+          "desc": "Writing assistant for grammar and style"
+        },
+        {
+          "title": "DeepL Translate",
+          "link": "https://www.deepl.com/en/translator",
+          "logo": "assets/images/logo/deepl.png",
+          "desc": "AI-powered translation service"
+        }
+      ]
+    }
+  }
+}
