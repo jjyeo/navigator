@@ -53,7 +53,6 @@ function createMenuCategory(categoryName, categoryObj) {
     // Category link
     const categoryLink = document.createElement("a");
     categoryLink.className = "category";
-    categoryLink.href = `#${categoryName.toLowerCase().replace(/[\s&]+/g, '-')}`;
 
     // Category icon
     if (categoryObj.icon) {
@@ -101,8 +100,6 @@ function createCategoryTag(imgLink, categoryName) {
 
 // Create a tag for the subcategory
 function createSubcategoryTag(subcategoryName) {
-    if (subcategoryName.toLowerCase() === 'default') return;
-
     const main = document.querySelector("#main");
     const subcategoryText = document.createElement("p");
     subcategoryText.className = "subcategory-text";
@@ -160,8 +157,8 @@ function displayContent(data) {
         const subcategoryList = document.createElement("ul");
         subcategoryList.className = "subcategory hide";
 
-        const hasMultipleSubcategories = Object.keys(subcategories).length > 1;
-        if (hasMultipleSubcategories) {
+        const hasSubcategories = Object.keys(subcategories).length > 0;
+        if (hasSubcategories) {
             const expandIcon = categoryContainer.querySelector('.expand-icon');
             expandIcon.textContent = "▶";
             const categoryLink = categoryContainer.querySelector('.category');
@@ -171,16 +168,14 @@ function displayContent(data) {
         for (const subcategory in subcategories) {
             createSubcategoryTag(subcategory);
 
-            // Add subcategory link to menu if not "default"
-            if (subcategory !== "default") {
-                const subLink = document.createElement("a");
-                subLink.href = `#${subcategory.toLowerCase().replace(/[\s&]+/g, '-')}`;
-                const subLi = document.createElement("li");
-                subLi.className = "subcategory-name";
-                subLi.textContent = subcategory;
-                subLink.appendChild(subLi);
-                subcategoryList.appendChild(subLink);
-            }
+            // Add subcategory link to menu
+            const subLink = document.createElement("a");
+            subLink.href = `#${subcategory.toLowerCase().replace(/[\s&]+/g, '-')}`;
+            const subLi = document.createElement("li");
+            subLi.className = "subcategory-name";
+            subLi.textContent = subcategory;
+            subLink.appendChild(subLi);
+            subcategoryList.appendChild(subLink);
 
             // Create cards for each item in subcategory
             const infoGrid = document.createElement("div");

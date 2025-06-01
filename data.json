@@ -2,7 +2,7 @@
   "Learning": {
     "icon": "assets/images/icon/discover.svg",
     "subcategories": {
-      "default": [
+      "Courses": [
         {
           "title": "Coursera",
           "link": "https://www.coursera.org",
@@ -145,7 +145,7 @@
   "AI": {
     "icon": "assets/images/icon/search.svg",
     "subcategories": {
-      "default": [
+      "Chatbot": [
         {
           "title": "ChatGPT",
           "link": "https://chat.openai.com",
