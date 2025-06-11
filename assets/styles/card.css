@@ -6,9 +6,9 @@
 
 .tag-flex img {
     width: 25px;
-    transform: scaleX(-1);
-    filter: invert(35%) sepia(0%) saturate(51%) hue-rotate(174deg) brightness(96%) contrast(99%);;
     margin-right: 10px;
+    transform: scaleX(-1);
+    filter: invert(35%) sepia(0%) saturate(51%) hue-rotate(174deg) brightness(96%) contrast(99%);
 }
 
 .tag-flex p {
@@ -22,14 +22,6 @@
 
 .subcategory-text {
     margin: 20px 0;
-}
-
-#info-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    row-gap: 20px;
-    column-gap: 30px;
-    margin-bottom: 40px;
 }
 
 .card {
@@ -46,9 +38,9 @@
 }
 
 .card:hover {
-    box-shadow: 0 15px 15px -15px rgba(0, 0, 0, .25);
     cursor: pointer;
     transform: translateY(-6px);
+    box-shadow: 0 15px 15px -15px rgba(0,0,0,0.25);
     text-decoration: none;
 }
 
@@ -61,8 +53,7 @@
 
 .card-logo {
     width: 40px;
-    margin-top: 5px;
-    margin-right: 10px;
+    margin: 5px 10px 0 0;
     object-fit: contain;
 }
 
@@ -73,10 +64,9 @@
 }
 
 .title {
+    margin: 6px 0 3px 0;
     font-size: 13px;
     font-weight: bold;
-    margin-top: 6px;
-    margin-bottom: 3px;
 }
 
 .desc {
