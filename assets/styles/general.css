@@ -34,13 +34,19 @@ a {
 }
 
 /* large screen */
+@media (max-width: 1200px) {
+    #info-grid {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
 @media (max-width: 990px) {
     body {
-        padding-left: 80px;
+        padding-left: 250px;
     }
 
     #info-grid {
-        grid-template-columns: repeat(3, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
@@ -50,6 +56,10 @@ a {
     body.expand {
         padding-left: 0;
         padding-top: 80px;
+    }
+
+    #info-grid {
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 

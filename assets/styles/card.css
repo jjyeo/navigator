@@ -7,8 +7,6 @@
 .tag-flex img {
     width: 25px;
     margin-right: 10px;
-    transform: scaleX(-1);
-    filter: invert(35%) sepia(0%) saturate(51%) hue-rotate(174deg) brightness(96%) contrast(99%);
 }
 
 .tag-flex p {

@@ -4,20 +4,20 @@ function toggleMenu() {
     const body = document.body;
     const isMobile = window.innerWidth <= 770;
 
+    // Hide the menu on small screens
     if (isMobile) {
-        // Hide the menu
         document.querySelector("#menu-flex")?.classList.toggle("hide");
-    } else {
-        // Collapse all categories
-        document.querySelectorAll(".container").forEach(container => {
-            const expandIcon = container.querySelector(".expand-icon");
-            const subcategory = container.querySelector(".subcategory");
-            if (expandIcon && subcategory) {
-                expandIcon.textContent = "▶";
-                subcategory.classList.add("hide");
-            }
-        });
     }
+
+    // Collapse all categories
+    document.querySelectorAll(".container").forEach(container => {
+        const expandIcon = container.querySelector(".expand-icon");
+        const subcategory = container.querySelector(".subcategory");
+        if (expandIcon && subcategory) {
+            expandIcon.textContent = "▶";
+            subcategory.classList.add("hide");
+        }
+    });
 
     // Adjust the menu and body
     menu.classList.toggle("shrink");
@@ -29,7 +29,7 @@ function toggleMenu() {
 function toggleMenuCategory() {
     const menu = document.querySelector("#menu");
     const isMenuExpanded = !menu.classList.contains("shrink");
-    const isDesktop = window.innerWidth > 990;
+    const isDesktop = window.innerWidth > 770;
     const isMobile = window.innerWidth <= 770;
 
     if (isMenuExpanded && (isDesktop || isMobile)) {
@@ -195,6 +195,25 @@ function displayContent(data) {
 }
 
 
+// Move the logo to the header or menu based on screen size
+function moveLogo() {
+    const header = document.querySelector("#header");
+    const menuFlex = document.querySelector("#menu-flex");
+    
+    if (window.innerWidth <= 770) {
+        const logoInMenu = document.querySelector('#menu-flex > a');
+        if (logoInMenu && !header.contains(logoInMenu)) {
+            header.insertBefore(logoInMenu, header.firstChild);
+        }
+    } else {
+        const logoInHeader = document.querySelector('#header > a');
+        if (logoInHeader && !menuFlex.contains(logoInHeader)) {
+            menuFlex.insertBefore(logoInHeader, menuFlex.firstChild);
+        }
+    }
+}
+
+
 // Add event listeners
 function attachEventListeners() {
     document.querySelectorAll(".collapsible").forEach(collapsible => {
@@ -229,3 +248,5 @@ function initApp() {
 }
 
 initApp();
+window.addEventListener('resize', moveLogo);
+window.addEventListener('DOMContentLoaded', moveLogo);

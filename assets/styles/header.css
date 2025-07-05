@@ -11,17 +11,10 @@
     cursor: pointer;
 }
 
-/* medium screen */
-@media (min-width: 771px) and (max-width: 990px) {
-    #menu-icon {
-        display: none;
-    }
-}
-
 /* small screen */
 @media (max-width: 770px) {
     #header {
-        position: absolute;
+        position: fixed;
         left: 0;
         top: 0;
         width: 100%;
